@@ -1,0 +1,46 @@
+.parent {
+    width: 200px;
+    margin: auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 25px;
+}
+
+.file-upload {
+    text-align: center;
+    border: 3px dashed rgb(210, 227, 244);
+    padding: 0.5rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.file-upload p {
+    font-size: 0.87rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.file-upload h3 {
+    font-size: 0.87rem;
+    margin-top: 10px;
+    color: black;
+}
+
+.file-upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload img {
+    width: 100%;
+    height: 100%;
+}

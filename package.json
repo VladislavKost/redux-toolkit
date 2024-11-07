@@ -2,7 +2,7 @@
   "name": "redux-toolkit",
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://vladislavkost.github.io/redux-toolkit",
+  "homepage": "/redux-toolkit",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

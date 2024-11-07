@@ -1,4 +1,4 @@
-name: Netology AHJ
+name: Netology Redux toolkit
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 20.12.0
           cache: "npm"
-      - run: npm
+      - run: npm install
       - run: npm run lint
 
   build:
@@ -46,7 +46,7 @@ jobs:
         with:
           node-version: 20.11.0
           cache: "npm"
-      - run: npm
+      - run: npm install
       - run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4

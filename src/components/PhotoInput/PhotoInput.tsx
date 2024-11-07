@@ -1,10 +1,9 @@
-import { useAppDispatch, useAppSelector } from "../../hooks";
+import { useAppDispatch } from "../../hooks";
 import uploadImg from "../../assets/uploadImg.png";
 import "./PhotoInput.css";
 import { photos } from "../../redux/slices/photosSlice";
 
 export const PhotoInput = () => {
-  // const curValue = useAppSelector((state) => state.factsCount.value);
   const dispatch = useAppDispatch();
 
   const onHandleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

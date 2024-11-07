@@ -16,7 +16,7 @@ export const factsCountSlice = createSlice({
   initialState,
   reducers: {
     facts: (state, action: PayloadAction<Array<string>>) => {
-      state = action.payload;
+      return [...state, ...action.payload];
     },
   },
 });

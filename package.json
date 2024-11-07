@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": ".",
+  "homepage": "https://vladislavkost.github.io/redux-toolkit",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

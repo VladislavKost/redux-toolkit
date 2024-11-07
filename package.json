@@ -2,7 +2,6 @@
   "name": "redux-toolkit",
   "version": "0.0.1",
   "type": "module",
-  "homepage": "/redux-toolkit",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
